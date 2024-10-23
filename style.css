@@ -2,4 +2,120 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #1B1B1B;
+}
+
+#container {
+  width: 1120px;
+  margin: 88px auto 65px;
+}
+
+#titlePage {
+  height: 79px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #E1624F;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 8px;
+  font-size: 36px;
+}
+
+figure {
+  margin: auto;
+}
+
+img {
+  border-radius: 28px;
+}
+
+#busan + figcaption {
+  color: #333333;
+  font-style: italic;
+  padding: 0 5px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0 40px;
+  background-color: #d9d9d9;
+}
+
+#title1 {
+  padding-top: 24px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h2 + p {
+  color: #333333;
+  text-align: left;
+}
+
+#haedong {
+  margin: 64px 0 20px;
+}
+
+#beomeo-sa, #haedong {
+  margin: 48px 0 20px;
+}
+
+h3, .number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+figcaption > p {
+  color: #333333;
+}
+
+.usual {
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.first {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+.second {
+  color: #591B98;
+  font-weight: bold;
+}
+
+.third {
+  color: #E5245E;
+  font-weight: bold;
+}
+
+.fourth {
+  color: #E95E10;
+  font-weight: bold;
+}
+
+#description {
+  color: #333333;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#svg {
+  vertical-align: middle;
 }
