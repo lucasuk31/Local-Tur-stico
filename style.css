@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #1B1B1B;
+  color: #1B1B1B;  
+  font-family: "Open Sans", sans-serif;
 }
 
 #container {
@@ -12,6 +13,7 @@
 
 #titlePage {
   height: 79px;
+  margin-bottom: 40px;
 }
 
 .title {
@@ -114,6 +116,8 @@ ul li::marker {
 footer {
   text-align: center;
   margin-bottom: 48px;
+  font-family: "Alice", serif;
+  line-height: 150%;
 }
 
 #svg {
